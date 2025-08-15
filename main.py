@@ -14,7 +14,6 @@ load_dotenv()
 
 TOKEN = getenv("BOT_TOKEN")
 
-# All handlers should be attached to the Router (or Dispatcher)
 
 dp = Dispatcher()
 
