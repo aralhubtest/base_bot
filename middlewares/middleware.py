@@ -4,7 +4,7 @@ from aiogram.types import Message
 import logging
 
 logger = logging.getLogger(__name__)
-logging.basicConfig(filename='logs/bot.log', level=logging.INFO)
+#logging.basicConfig(filename='logs/bot.log', level=logging.INFO)
 
 class MyLoggingMiddleware(BaseMiddleware):
     async def __call__(
